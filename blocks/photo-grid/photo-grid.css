@@ -9,7 +9,7 @@
     background-color: #2A2C2F;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .photo-grid {
         max-width: 928px;
         min-height: 940px;

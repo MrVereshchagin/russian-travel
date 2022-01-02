@@ -13,7 +13,7 @@
     position: relative;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
     .cover {
         width: 100vw;
         min-height: 640px;
