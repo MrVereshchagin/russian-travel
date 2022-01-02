@@ -4,3 +4,10 @@
     margin: 0 auto;
     padding-bottom: 92px;
 }
+
+@media screen and (max-width: 1024px) {
+    .places {
+        max-width: 928px;
+        min-height: 3292px;
+    }
+}
