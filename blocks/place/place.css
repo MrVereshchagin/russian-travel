@@ -3,8 +3,8 @@
     max-height: 660px;
     padding-top: 80px;
     display: grid;
-    grid-template-columns: 1fr auto;
-    grid-template-rows: fit-content(152px) fit-content(460px);
+    grid-template-columns: 47% auto;
+    grid-template-rows: auto auto;
     row-gap: 48px;
     column-gap: 40px;
 }
@@ -16,6 +16,16 @@
 @media screen and (max-width: 1024px) {
     .place {
         column-gap: 32px;
-        grid-template-rows: fit-content(152px) fit-content(456px);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .place {
+        padding-top: 73px;
+    }
+    .place:first-child {
+        padding-top: 87px;
+        grid-template-rows: 92px auto;
+    }
+}
+

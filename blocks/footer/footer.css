@@ -11,3 +11,10 @@
         max-width: 928px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 94%;
+        padding-top: 88px;
+    }
+}

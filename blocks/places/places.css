@@ -11,3 +11,11 @@
         min-height: 3292px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .places {
+        max-width: 720px;
+        min-height: 2808px;
+        padding-bottom: 90px;
+    }
+}
