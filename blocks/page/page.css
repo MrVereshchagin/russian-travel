@@ -5,8 +5,3 @@
     font-family: "Inter", "Arial", sans-serif;
 }
 
-@media screen and (max-content: 767px) {
-    .page {
-        min-height: 10023px;
-    }
-}
