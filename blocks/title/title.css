@@ -11,3 +11,10 @@
         line-height: 46px;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .title {
+        font-size: 32px;
+        padding: 0 16px;
+    }
+}

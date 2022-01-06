@@ -6,11 +6,17 @@
     padding-bottom: 92px;
     color:#FFFFFF;
     font-size: 12px;
-    line-height: 18px;
+    line-height: 1.6;
 }
 
 @media screen and (max-width: 768px) {
     .intro__list {
         padding-bottom: 85px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro__list {
+        padding-bottom: 64px;
     }
 }

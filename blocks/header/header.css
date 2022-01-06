@@ -19,11 +19,6 @@
     }
 }
 
-@media screen and (max-width: 1020px) {
-    .header {
-        max-width: 90%;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .header {
@@ -31,14 +26,11 @@
     }
 }
 
-@media screen and (max-width: 750px) {
-    .header {
-        max-width: 90%;
-    }
-}
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .header {
         max-width: 288px;
+        min-height: 42px;
+        padding-top: 16px;
     }
 }

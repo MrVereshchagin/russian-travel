@@ -1,8 +1,20 @@
 .header__links {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     margin: 0;
     list-style: none;
-    min-width: 80px;
+    width: 77px;
+    padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+    .header__links {
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header__links:not(:last-child) {
+        padding-right: 18px;
+    }
+
 }

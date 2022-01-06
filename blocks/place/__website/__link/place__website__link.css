@@ -11,3 +11,9 @@
     text-decoration: underline;
     opacity: .7;
 }
+
+@media screen and (max-width: 425px) {
+    .place__website__link {
+        padding: 0 16px;
+    }
+}
