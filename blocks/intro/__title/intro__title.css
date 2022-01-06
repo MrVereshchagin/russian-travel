@@ -9,8 +9,18 @@
     line-height: 1.1;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .intro__title {
-        max-width: 85%;
+        padding-top: 88px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro__title {
+        width: 90%;
+        font-size: 32px;
+        padding-top: 64px;
+        line-height: 1.1;
     }
 }

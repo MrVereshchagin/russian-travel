@@ -5,14 +5,14 @@
     padding-bottom: 92px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .places {
         max-width: 928px;
         min-height: 3292px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .places {
         max-width: 720px;
         min-height: 2808px;
@@ -21,7 +21,8 @@
 
 @media screen and (max-width: 425px) {
     .places {
-        max-width: 320px;
+        max-width: 100%;
         min-height: 5177px;
+        padding-bottom: 37px;
     }
 }

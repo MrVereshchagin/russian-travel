@@ -5,3 +5,10 @@
     align-items: center;
     margin: 0;
 }
+
+@media screen and (max-width: 425px) {
+    .footer__content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

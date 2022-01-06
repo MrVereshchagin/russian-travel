@@ -4,3 +4,9 @@
     background-color: #2A2C2F;
     font-family: "Inter", "Arial", sans-serif;
 }
+
+@media screen and (max-content: 767px) {
+    .page {
+        min-height: 10023px;
+    }
+}

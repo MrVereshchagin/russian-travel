@@ -16,5 +16,10 @@
     .header__links:not(:last-child) {
         padding-right: 18px;
     }
+}
 
+@media screen and (max-width: 425px) {
+    .header__links {
+        width: 22%;
+    }
 }
