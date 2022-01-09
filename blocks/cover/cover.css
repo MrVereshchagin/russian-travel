@@ -8,16 +8,9 @@
     }
 }
 
-/* @media screen and (max-width: 768px) {
+
+@media screen and (max-width: 767px) {
     .cover {
-        max-width: 768px;
-        min-height: 480px;
+        padding-top: 0;
     }
 }
-
-@media screen and (max-width: 425px) {
-    .cover {
-        max-width: 100%;
-        min-height: 200px;
-    }
-} */
