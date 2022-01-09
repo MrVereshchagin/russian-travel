@@ -34,7 +34,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: min-content min-content min-content min-content;
         gap: 32px;
-        padding-top: 61px;
+        padding-top: 50px;
     }
     .place:first-child {
         padding-top: 0;

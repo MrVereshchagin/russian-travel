@@ -4,22 +4,13 @@
     align-items: center;
     margin: 0;
     list-style: none;
-    width: 77px;
+    min-width: 77px;
     padding: 0;
 }
 
-@media screen and (max-width: 425px) {
-    .header__links {
-        align-items: center;
-        justify-content: space-between;
-    }
-    .header__links:not(:last-child) {
-        padding-right: 18px;
-    }
-}
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .header__links {
-        width: 22%;
+        min-width: 22%;
     }
 }
