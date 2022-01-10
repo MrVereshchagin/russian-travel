@@ -23,7 +23,7 @@
     .place {
         grid-template-columns: 1fr auto;
         grid-template-rows: 1fr auto;
-        padding-top: 78px;
+        padding-top: 73px;
         row-gap: 48px;
         column-gap: 28px;
     }
@@ -39,8 +39,5 @@
     .place:first-child {
         padding-top: 0;
         grid-template-rows: 35px;
-    }
-    .place:last-child {
-        padding-top: 82px;
     }
 }

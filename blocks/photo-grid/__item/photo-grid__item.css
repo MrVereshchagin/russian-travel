@@ -4,3 +4,24 @@
     object-position: center center;
     object-fit: cover;
 }
+
+@media screen and (max-width: 1279px) {
+    .photo-grid__item {
+        max-width: 300px;
+        min-height: 225px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .photo-grid__item {
+        max-width: 352px;
+        min-height: 264px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .photo-grid__item {
+        max-width: 288px;
+        min-height: 216px;
+    }
+}
